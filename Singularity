@@ -60,6 +60,6 @@ From: nvidia/cuda:8.0-devel-ubuntu16.04
     # EBMetaD run scripts
     git clone https://github.com/jmhays/run_brer.git
     cd run_brer/
-    git checkout master
+    git checkout devel
     python3 setup.py install
 
