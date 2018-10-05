@@ -48,16 +48,16 @@ From: nvidia/cuda:8.0-devel-ubuntu16.04
     make -j8; make install
     cd /builds
 
-    # EBMetaD plugin
+    # Get BRER plugin
     git clone https://github.com/jmhays/sample_restraint.git
     cd sample_restraint
-    git checkout brer
+    git checkout deer
     mkdir build; cd build
     cmake ../ -Dgmxapi_DIR=/usr/local/gromacs/share/cmake/gmxapi -DGROMACS_DIR=/usr/local/gromacs/share/cmake/gromacs
     make -j8
     cd /builds
 
-    # EBMetaD run scripts
+    # BRER run scripts
     git clone https://github.com/jmhays/run_brer.git
     cd run_brer/
     git checkout devel
