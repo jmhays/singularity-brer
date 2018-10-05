@@ -54,7 +54,7 @@ From: nvidia/cuda:8.0-devel-ubuntu16.04
     git checkout deer
     mkdir build; cd build
     cmake ../ -Dgmxapi_DIR=/usr/local/gromacs/share/cmake/gmxapi -DGROMACS_DIR=/usr/local/gromacs/share/cmake/gromacs
-    make -j8
+    make -j8; make install
     cd /builds
 
     # BRER run scripts
