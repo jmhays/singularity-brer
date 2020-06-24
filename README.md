@@ -33,6 +33,6 @@ singularity exec --nv singularity-brer.simg python3 my_run_script.py
 ```
 `--nv` will bind the host nvidia drivers to the container, so be sure that your drivers are compatible with CUDA 8.0.
 
-An example run script is provided on the [main project website](https://github.com/jmhays/run_brer))
+An example run script is provided on the [main project website](https://github.com/kassonlab/run_brer))
 #### Miscellaneous
 **Warning**: executing `singularity run shub://jmhays/singularity-brer` won't do anything.
