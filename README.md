@@ -5,7 +5,7 @@
 This repository contains the Singularity recipe used to build containers for BRER simulations. 
 A pre-built image is hosted on Singularity Hub. 
 
-The main project for running these simulations is hosted [here](https://github.com/jmhays/run_brer).
+The main project for running these simulations is hosted [here](https://github.com/kassonlab/run_brer).
 
 ## Getting the container
 Pull directly from singularity hub (recommended):
