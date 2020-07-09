@@ -1,14 +1,14 @@
 # BRER: Singularity
 
 This repository contains the Singularity recipe used to build containers for BRER simulations. 
-A pre-built image is hosted on Sylabs Singularity [library](https://cloud.sylabs.io/library/eirrgang/default/brer). 
+A pre-built image is hosted on Sylabs Singularity [library](https://cloud.sylabs.io/library/kassonlab/default/brer). 
 
 The main project for running these simulations is hosted at https://github.com/kassonlab/run_brer.
 
 ## Getting the container
 Pull directly from singularity library (recommended):
 ```angular2html
-singularity pull --name singularity-brer.sif library://eirrgang/default/brer
+singularity pull --name singularity-brer.sif library://kassonlab/default/brer
 ```
 or build it yourself:
 ```angular2html
